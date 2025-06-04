@@ -1,0 +1,43 @@
+.App {
+  font-family: Arial, sans-serif;
+  padding: 20px;
+  background: #f2e8c9;
+}
+
+.container {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+}
+h1{
+  color: black;
+}
+.card {
+  display: flex;
+  flex-direction: row-reverse;
+  align-items: center;
+  justify-content: flex-end;
+  border: 1px solid #ccc;
+  border-radius: 10px;
+  padding: 15px;
+  width: 200px;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+  background-color: #87cefa;
+  color: black;
+  transition: transform 0.2s;
+}
+
+.card img{
+  width: 100px;
+  height: 100px;
+  object-fit: contain;
+}
+
+.card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
+}
+
+.card h3 {
+  margin: 10px auto;
+}
